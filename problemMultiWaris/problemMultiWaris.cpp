@@ -38,15 +38,13 @@ public:
     budi(int pUmur) :
         pekerja(pUmur),
         pelajar(pUmur)
-    {
-        cout << "Budi dibuat\n" << endl;
+        {
+                 cout << "Budi dibuat\n" << endl;
     }
-
 };
 
+int main() {
+    budi a(12);
 
-int main()
-{
-    std::cout << "Hello World!\n";
+    return 0;
 }
-
