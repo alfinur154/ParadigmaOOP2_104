@@ -17,6 +17,14 @@ public:
         cout << "y=" << y << endl;
     }
 };
+
+int main() {
+    abstraksiKlas ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;
+}
 int main()
 {
     std::cout << "Hello World!\n";
